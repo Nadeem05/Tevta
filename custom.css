@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-family: 'Work Sans'
+}
+
+.cardC {
+    /* max-width: 1000px; */
+    width: 100%;
+    padding: 4rem;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+@media(max-width:768px) {
+    .cardC {
+        width: 100%;
+        padding: 1.5rem
+    }
+}
+
+.brightNess {
+    /* opacity: 0.4; */
+    /* background-color: black; */
+    filter: brightness(0.5);
+}
+
+.progCard{
+    transition: 0.7s;
+  }
+  
+  .progCard:hover{
+       transform: scale(1.08);
+  }
+
+
